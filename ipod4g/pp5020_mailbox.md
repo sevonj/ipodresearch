@@ -16,7 +16,7 @@ The mailbox unit sits between CPU and COP and has a few registers for communicat
 
 | 31    | 30    | 29    | 28    | 27  | 26  | 25  | ... |
 | ----- | ----- | ----- | ----- | --- | --- | --- | --- |
-| IRAM? | IRAM? | IRAM? | IRAM? | ?   | ?   | ?   | ?   |
+| IRAM-A? | IRAM-B? | IRAM-C? | IRAM-D? | ?   | ?   | ?   | ?   |
 
 ## Set
 32bit write only. Either processor can write here to request setting a bit in Status.
