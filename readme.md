@@ -3,8 +3,8 @@ Trying to collect fragmented knowledge from public documents, ipodlinux wiki, ip
 
 
 # iPod 4G
-PP5020 SoC contains 2 arm cores: CPU and COP.
-Specifically ARM7TDMI. Note that ARM7 is not the same as ARMv7. It is ARMv4.
+PP5020 SoC contains 2 ARM7TDMI cores: CPU and COP.  
+Note that ARM7 is not the same as ARMv7. It is ARMv4.  
 SoC components:
 - CPU
 - COP
