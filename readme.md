@@ -4,22 +4,23 @@ Trying to collect fragmented knowledge from public documents, ipodlinux wiki, ip
 
 # iPod 4G
 PP5020 SoC contains 2 arm cores: CPU and COP.
-ARM7TDMI. Note that ARM7 is not the same thing as ARMv7. It uses ARMv4 ISA.
+Specifically ARM7TDMI. Note that ARM7 is not the same as ARMv7. It is ARMv4.
 SoC components:
 - CPU
 - COP
 - Mailbox
-- IRAM (96KB)
-- Interface controller?
+- 96KB IRAM (4x24KB banks?)
+- Interface controller
 
 Other hardware includes
-- 32MB SDRAM chip
+- 32MB SDRAM
 - LCD (Monochrome in 1st model, Color in "photo" and 3rd models) (LCD1 or LCD2)
 - IDE hard drive (EIDE)
 - Piezo clicker (PWM)
 - Audio: Wolfson WM8975 (I2S)
 - Clickwheel (I2C?)
 - Buttons (I2C?)
+- ...
 
 Separate firmware partition before hfs/fat partition:
 https://web.archive.org/web/20180501050730/http://www.ipodlinux.org/Firmware.html#Firmware_Partition_format
